@@ -1,6 +1,6 @@
 :root {
   /*     текст */
-  --mine-shaft: #eaeaea;
+  --mine-shaft: #fff;
   --mountain-mist: #afafaf;
   --silver: #c0c0c0;
   /*     всякие фоны */
@@ -23,15 +23,14 @@
   --limed-spruce-rgb: 48, 59, 68;
   /*     body */
   --seashell: #000;
-  --desert-storm: #5a5a5a;
+  --desert-storm: #000;
   /*     вторичные ссылки */
   --rolling-stone: #ccc;
   --rolling-stone-rgb: 111, 117, 119;
   --gull-gray: #c4cad1;
   --gull-gray-rgb: 146, 156, 165;
   --loblolly: #cacaca;
-/*     выделение комментариев автора */
-  --frost: #335d69;
+  --frost: #ecf7df;
   --linen: #feefe1;
   /*     фон уведомлений внизу экрана */
   --aqua-haze: #256b93;
@@ -98,7 +97,7 @@
 
 /* код они инлайнят */
 pre {
-  background: #c6c6c6 !important;
+  background: #f2f2f2 !important;
   filter: saturate(3) invert(1);
 }
 
@@ -107,5 +106,5 @@ pre > span[color="#4d4d4c"] {
 }
 
 code {
-  color: #000 !important;
+  color: #148f00 !important;
 }
